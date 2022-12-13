@@ -1,0 +1,143 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:monospace;
+}
+.hero{
+    background-color: orange;
+    
+     background: url("./pexels-og-mpango-3041110.jpg") 40%;
+    /* width:96%; */
+    height:400px;
+    padding:2%;
+    color:white;
+}
+li{list-style: none}
+a{text-decoration: none;}
+.menu{
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius:4px;
+}
+
+.menu ul li {
+    display: inline;
+    
+    margin:0px 5px;
+    line-height: 40px;
+    
+}
+.menu ul li a{
+    color:white;
+    font-weight: 400;
+    padding:10px 5px;
+    margin:1px;
+}.menu ul li a:hover{
+    background:rgba(255, 255, 255, 0.432);
+    color: white;
+}
+/* Style Text in Hero */
+
+
+.down-hero{
+    width:60%;
+    /* background-color: teal; */
+    text-align: center;
+    margin:240px auto;
+}
+.down-hero h1{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 900;
+  color:white;
+}
+.down-hero p{
+    color:whitesmoke;
+    font-size: 13px;
+}
+
+/* Style About Me */
+.info{
+    margin-top:100px;
+    background-color:rgb(240, 239, 239);
+    
+    text-align:center;
+    padding:2%;
+    width:96%;
+    margin-bottom:100px;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.title{    
+    font-size: 40px;
+    color:#333;
+    margin:20px;
+    text-transform: uppercase;
+}
+.content-info{
+    color:#555;
+    font-size:13px;
+    margin:30px auto;
+    width:70%;
+}
+
+/* Style Photo */
+#photo{
+    width:96%;
+    /* height:300px; */
+    padding:2%;
+    /* background:hotpink; */
+    text-align: center;
+}
+#photo h1{
+    font-size: 35px;
+    color:#333;
+    margin:10px;
+}
+#photo img{
+    width:300px;
+    margin:2%;
+    height: 270px;
+    border-radius:6px;
+}
+/* Style Project */
+.project{
+    width:96%;
+    padding:2%;
+    background: #eee;
+    text-align: center;
+    /* padding-top:6%; */
+}
+.project h1{
+    font-size: 45px;
+    margin-top:30px;
+}
+.item-project{
+    display: inline;
+    float:left;
+    margin:1%;
+}
+.item-project h1{
+    margin: 6%;
+    font-size: 35px;
+    font-weight: 600;;
+}
+.project img{
+    /* width:30%; */
+    margin:1%;
+    border-radius: 4px;;
+}
+
+/* Style Footer */
+footer{
+    clear: left;
+    background: coral;
+    padding:1%;
+    width:98%;
+    text-align: center;
+    height: 40px;
+    color:white;
+    font-size: 20px;
+    line-height: 40px;
+    /* margin-top: 10%; */
+}
